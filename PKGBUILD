@@ -31,8 +31,9 @@ license=(
   AGPL3
 )
 depends=(
+  "libcrash-bash"
   "open${_pkg}"
-  net-tools
+  "net-tools"
   "${_pkg}-utils"
 )
 makedepends=(
