@@ -14,7 +14,7 @@ pkgbase="${_pkgbase}-git"
 pkgname=(
   "${pkgbase}"
 )
-pkgver="1.1.4.1.1".r1.g"176a3e5dd00f2de835336876e81ae070d3f25d92"
+pkgver="1.1.4.1.1".r5.g"1f1424b416f3fb8e85bd7fd127ad62942a00c9a6"
 pkgrel=1
 pkgdesc="Simple SSH wrapper"
 arch=(
