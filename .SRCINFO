@@ -10,6 +10,7 @@ pkgbase = dynssh-git
 	checkdepends = shellcheck
 	makedepends = curl
 	makedepends = jq
+	depends = hotspot-resolver
 	depends = openssh
 	depends = net-tools
 	depends = ssh-utils

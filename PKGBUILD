@@ -31,6 +31,7 @@ license=(
   AGPL3
 )
 depends=(
+  "hotspot-resolver"
   "open${_pkg}"
   net-tools
   "${_pkg}-utils"
