@@ -14,7 +14,7 @@ pkgbase="${_pkgbase}-git"
 pkgname=(
   "${pkgbase}"
 )
-pkgver="1.1.3.1.1.r4.g28097d0efd99dacf634a5f2b253a5ac004470eed"
+pkgver="1.1.5".r8.g"59df6ee5b112d41d40e449eeaaddcbcf90ff5812"
 pkgrel=1
 pkgdesc="Simple SSH wrapper"
 arch=(
@@ -32,8 +32,8 @@ license=(
 )
 depends=(
   "hotspot-resolver"
+  "libcrash-bash"
   "open${_pkg}"
-  net-tools
   "${_pkg}-utils"
 )
 makedepends=(
